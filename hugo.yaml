@@ -13,6 +13,7 @@ buildExpired: false
 
 minify:
   disableXML: true
+  disableJSON: true
   minifyOutput: true
 
 # 所有語言共用
@@ -129,3 +130,4 @@ markup:
         block: true                              # allow {width="300"} on the line after an image
   highlight:
     noClasses: false
+
